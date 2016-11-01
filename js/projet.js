@@ -9,6 +9,8 @@ var origin_x = 800;
 var origin_y = 600;
 var ratio = 1;
 
+var first_in = true;
+
 var block_id = new Array(
 "block-shanghai","block-zhejiang","block-gansu","block-shaanxi","block-anhui","block-hubei",
 "block-chongqing","block-hunan","block-sichuan","block-shanxi","block-henan","block-fujian",
@@ -73,10 +75,24 @@ function resizeMap(){
 	document.getElementById("introduce-container").style.left = l_offset + "px";
 	document.getElementById("introduce-container").style.height = 0.90 * d_height + "px";
 	
+	document.getElementById("bienvenue-container").style.width = 0.60 * d_width + "px";
+	document.getElementById("bienvenue-container").style.left = l_offset + 0.20 * d_width + "px";
+	document.getElementById("bienvenue-container").style.height = 0.90 * d_height + "px";
+	
 	document.getElementById("block-taiwan").style.left = l_offset + 595 * ratio + "px";
 	document.getElementById("block-taiwan").style.top = 450 * ratio + "px";
 	document.getElementById("img-taiwan").style.width = 23 * ratio + "px";
 	document.getElementById("img-taiwan").style.height = 54 * ratio + "px";
+	
+	if(first_in){
+		showBienvenue();
+		first_in = false;
+	}
+}
+
+function showBienvenue(){
+	$("#bienvenue-container").fadeIn();
+	setTimeout(function(){$("#bienvenue-container").fadeOut();}, 2000);
 }
 
 function block_click(x,i){

@@ -4,7 +4,6 @@ h1, h2, h3, p, span, div{
 
 body{
 	background-image:url("../image/background.jpg");
-	background-repeat: no-repeat;
 }
 
 #introduce-container{
@@ -19,6 +18,21 @@ body{
 	-webkit-border-radius: 15px;   /* Webkit browsers */
 	border-radius:15px;            /* W3C syntax */
 	overflow-y: auto;
+}
+
+#bienvenue-container{
+	position:absolute;
+	margin: 0 auto;
+	padding: 15px 30px;			
+	overflow: hidden; 
+	text-align: left; 
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	-moz-border-radius: 15px;      /* Gecko browsers */
+	-webkit-border-radius: 15px;   /* Webkit browsers */
+	border-radius:15px;            /* W3C syntax */
+	overflow-y: auto;
+	font-size: 1.5em;
 }
 
 #introduce-content{

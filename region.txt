@@ -1,4 +1,22 @@
-﻿1.
+﻿Bienvenue!
+Cette page vous présente les dialectes en Chine, divisé par province. Les données est du Internet.
+
+Cliquer une carte de province pour acquérir plus d'informations.
+
+C'est une publication de notre groupe (G1A03) de Projet Management.
+
+On utilise ces techinques :
+  Hyper Text Markup Language (HTML, Langage Signalétique Hyper Text en français)
+  Javascript (un langage pour élaborer des pages dynamique sur Internet)
+  JQuery (une bibliothèque de Javascript qui sert aux animation basée d'élement de la page)
+  Cascading Style Sheets (CSS, Feuilles de Style en Cascade en français)
+
+欢迎！
+本网页为您介绍了中国各地的方言，按照省份划分。数据来源于网络。
+
+这是我们项目管理课的项目的publication的网页部分，
+
+1.
 Shanghai est la ville la plus peuplée de Chine (en population urbaine). Elle constitue aussi l'une des plus grandes mégapoles du monde avec plus de 18,5 millions d'habitants (2012)3. Elle se situe sur la rivière Huangpu près de l'embouchure du Yangzi Jiang, à l'est de la Chine.
 La langue officielle de Shanghai, comme dans l'ensemble de la Chine est le mandarin. Cependant, la langue parlée est, dans le delta du Yangzi Jiang (长江) et les régions environnantes, le wu. La variété parlée à Shanghai est le shanghaïen. Les campagnes de promotion du mandarin et la scolarité effectuée exclusivement en mandarin conduisent à un recul progressif de l'usage du dialecte. Celui-ci reste cependant largement utilisé dans la communication informelle. Il est à noter dans le domaine de la communication informelle le basculement du shanghaïen vers le mandarin chez la jeune génération de Shanghaïens, qui ne maîtrise guère plus la langue locale, ou de façon erratique.
 
